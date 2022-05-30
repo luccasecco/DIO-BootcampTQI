@@ -1,0 +1,56 @@
+Funcões
+
+- Variáveis declaradas no escopo da função serão utilizadas somente dentro do bloco da função;
+- Retorno de funções encerra a função e devolvem valores para serem utilizados posteriormente;
+- Função anônima = Retornos de funções podem ser atribuídos e guardados dentro de variáveis;
+
+- Função autoinvocável (IIFE): Função entre parênteses seguida por par de parênteses;
+- Também pode ser utilizada com parâmetros ou atribuída à variáveis;
+
+- Callbacks: Função passada como argumento para outra função;
+- Maior controle da ordem de chamadas;
+
+- Função dentro de objeto é um método;
+
+Arrays
+
+- Spread: parte de um array se torna um elemento independente;
+- Rest: um elemento independente se torna parte de um array;
+
+Objetos
+
+- Desestruturação: Entre {} filtramos apenas os dados que nos interessam em um objeto;
+
+Loops
+
+- If/Else: Condição.
+- Switch/case: Equivale a uma comparação tipo e valor (===); Sempre precisa de um default; Ideal para comparar muitos valores.
+- For...in: Loop entre propriedades enumeráveis de um objeto;
+- For...of: Loop entre estruturas interáveis (arrays, strings).
+- While: Executa instruções até que a condição se torne falsa.
+- Do...while: Executa primeiro, condiciona depois.
+
+THIS
+
+- Referência de contexto;
+- Valor pode mudar de acordo com o lugar no código onde foi chamado:
+	1. Em um objeto => Próprio objeto dono do método;
+	2. Sozinha => Objeto global (em navegadores, window);
+	3. Função => Objeto global;
+	4. Evento => Elemento que recebeu o evento.
+
+* Manipular valor de THIS:
+
+- Call: Atribui propriedade de objeto passado como parâmetro;
+- Apply: Parâmetros passados como array;
+- Bind: Clona a estrutura da função onde é chamado e aplica o valor do objeto passado como parâmetro.
+
+ARROW FUNCTION () => 
+
+- Sempre armazenada dentro de uma constante;
+- Caso exista apenas uma linha, pode dispensar as chaves e o return;
+- Caso ecista apenas um parâmetro, pode dispensar os parênteses;
+- Não faz hoisting.
+- "This" sempre será do objeto global. Métodos para modificar seu valor não funcionam;
+- Construtor também não pode ser ultilizado.
+- Não utilizar como métodos de objetos (funções dentro de objetos).

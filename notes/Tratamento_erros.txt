@@ -1,0 +1,41 @@
+Tratamento de erros
+
+//Tipos de erros
+
+1. Error do ECMAScript: 
+	- Ocorre em tempo de execução.
+	- Composto por:
+		.Mensagem
+		.Nome
+		.Linha.
+		.Call stack(pilha de chamadas do código)
+
+2. DOMException:
+	- Envolvido no contexto onde está relacionado o código JS à pagina web;
+	- Relacionados ao DOM (Document Object Model);
+
+//Trhow e return 
+
+- Quando uma condição não é atendida retorna um erro.
+
+//Try/catch
+
+- Declaração que captura qualquer tipo de erro dentro do bloco Try e devolve no Catch de maneira mais personalizada/organizada.
+- Pode ser combinado com "trhow" dentro de catch.
+
+//Finally
+
+- Pode compor o bloco Try...catch;
+- Instrução chamada independente de haver erro ou não;
+- Finaliza o código;
+- Não é obrigatório.
+
+//Objeto Error
+
+- Aceita parâmetros:
+	.message;
+	.fileName;
+	.lineNumber;
+- const MeuErro = new Error('Mensagem Inválida');
+
+throw MeuErro;

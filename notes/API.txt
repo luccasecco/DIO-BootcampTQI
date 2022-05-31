@@ -1,0 +1,24 @@
+APIs
+
+- Application Programming Interface;
+- Forma de intermediar os resultados do back=end com o que é apresentado no front-end;
+- Acessado através de url;
+
+- JSON: formato retornado para tratar dados.
+
+Fetch
+
+- Consumo de APIS
+
+fetch(url, options)
+	.then(response => response.json())
+	.then(json => console.log(json))
+
+//retorna uma promise
+
+- Operações no banco de dados
+	.POST;
+	.GET;
+	.PUT;
+	.DELETE;
+	.etc...

@@ -1,0 +1,24 @@
+Programação Orientada a Objeto
+
+- Os programas são "objetos" que possuem uma série de propriedades.
+
+//Pilares
+	.Herança: Objeto herda propriedades e métodos do objeto pai.
+	.Polimorfismo: Podem herdar a mesma classe pai, mas se comportarem de forma diferente.
+	.Encapsulamento: Cada classe tem propriedades e métodos independentes do restante do código.
+	.Abstração: Generalização. Isola aspecto determinado para simplificar.
+
+//Protótipos
+
+- Todos os objetos Javascript herdam propriedades e métodos de um prototype.
+- O objeto Object.prototype está no toop desta cadeia.
+
+//Classes
+
+- Não existem nativamente no JS;
+- Syntacit sugar: sintaxe feita para facilitar a escrita.
+- Todas as classes são objetos e a herança se dá pro protótipos.
+	.Constructor: Cria parâmetros.
+	.Getter e Setter: Busca e muda parâmetros.
+	.super(): Utiliza propriedades do constutor que existem na classe pai.
+	.método: Função dentro de objeto.

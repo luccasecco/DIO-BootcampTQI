@@ -1,0 +1,36 @@
+JavaScript Assíncrono
+
+- Que não ocorre ou não se efetiva ao mesmo tempo.
+
+//Promises
+
+- Objeto de processamento assícrono;
+- Valor inicialmente desconhecido;
+- Pode ser resolvida ou rejeitada;
+
+Promise.then()
+Promise.catch()
+
+Estados:
+
+	1. Pending: declarada;
+	2. Fulfiled: completada;
+	3. Rejected: rejeitada;
+
+async function resolvePromise() {
+const myPromise = new Promise((resolve, reject) => {
+	window.setTimeuout(() => {
+		resolve(console.log('Resolvida!'));
+	}, 2000);
+});
+
+const resolved = await myPromise
+	.then((result) => result + ' pasando pelo then')
+	.then((result) => result + ' e agora acabou!')
+	.catch((err) => console.log(err.message));
+
+return resolved;
+}
+
+* Funções assíncronas também retornam Promises.
+* Aceita try...catch.

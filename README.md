@@ -13,3 +13,7 @@
 -----
 
 Let's code! :metal:
+
+-----
+## Bootcamp finished (15.06.2022)
+![tqibootcamp](https://user-images.githubusercontent.com/101674470/173956593-4e3a6010-501c-43c8-97e0-280003cf7aa1.jpg)
